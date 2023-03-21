@@ -1,6 +1,6 @@
 def test_car() -> None:
     """
-    Test for new car
+    Test for car object
     """
 
     # arrange
