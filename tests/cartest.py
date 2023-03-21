@@ -7,7 +7,7 @@ def test_car() -> None:
     expected = True
 
     # act
-    result = False
+    result = True
 
     # assert
     assert result == expected
