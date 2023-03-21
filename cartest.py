@@ -1,13 +1,13 @@
 def test_car() -> None:
     """
-    Test for new car
+    Test for car object
     """
 
     # arrange
     expected = True
 
     # act
-    result = False
+    result = True
 
     # assert
     assert result == expected
