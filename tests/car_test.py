@@ -1,32 +1,26 @@
-import pytest
 
-
-def test_car() -> None:
+def test_should_have_regisistration(test_car):
     """
-    Test for car object
+    Should have registration number
     """
-
     # arrange
-    expected = True
+    expected = "ABC"
 
     # act
-    result = True
 
     # assert
-    assert result == expected
+    assert test_car.registration == expected
 
-
-@pytest.mark.skip(reason="Test in development new")
-def test_new() -> None:
+def test_shoud_have_weight(test_car) -> None:
     '''
-
+    Car should have weight
     '''
 
     # arrange
-    expected = True
-
+    expected = 300
+    
     # act
-    result = False
-
+    
     # assert
-    assert result == expected
+    assert test_car.weight == expected
+    
