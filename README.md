@@ -14,6 +14,8 @@ Updates
 
 * New Table of contents added.
 * Added Tasks.
+* Added tests for remaining vehicles. 
+
 ---
 
 ## Task
